@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/gradient"
+        android:name=" com.example.a4haftaodev.RecyclerFullFragment"
+        android:layout_height="match_parent"
+        tools:context=".RecyclerFullFragment">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="619dp"
+            android:layout_height="442dp"
+            android:src="@drawable/rectangleearth"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="-22dp"
+            tools:ignore="MissingConstraints" />
+
+        <!-- Line 1 -->
+        <View
+            android:id="@+id/line"
+            android:layout_width="450dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/line"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            tools:ignore="MissingConstraints" />
+
+        <View
+            android:id="@+id/linee"
+            android:layout_width="450dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="112dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/line"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/line"
+            tools:ignore="DuplicateIds,MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="370dp"
+            android:layout_height="91dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Earth, third planet from the Sun and the fifth largest planet in the solar system in terms of size and mass. It is... More"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="458dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginBottom="85dp"
+            android:background="@drawable/letsgo"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Map"
+            android:textColor="#F9AD1A"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="85dp"
+            android:background="@drawable/letsgo"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Surface"
+            android:textColor="#F9AD1A"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginBottom="85dp"
+            android:background="@drawable/letsgo"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Environment"
+            android:textColor="#F9AD1A"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button2"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Gallery"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/linee" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

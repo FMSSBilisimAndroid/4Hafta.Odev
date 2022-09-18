@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="ClothsModel"
+            type="com.example.a4haftaodev.ClothsModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient"
+        tools:context=".RecyclerFragment">
+
+
+        <ImageView
+            android:id="@+id/ImageView"
+            android:layout_width="165dp"
+            android:layout_height="176dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="94dp"
+            android:background="@drawable/letsgo"
+            android:src="@drawable/rectangle_5"
+            app:ImageResource="@{ClothsModel.imageResId}"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/goimg"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="33dp"
+            android:src="@drawable/back_arrow"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

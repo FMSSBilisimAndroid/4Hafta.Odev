@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navhost"
+    app:startDestination="@id/homeragment">
+
+    <fragment
+        android:id="@+id/homeragment"
+        android:name="com.example.a4haftaodev.HomeFragment"
+        android:label="fragment_homeragment"
+        tools:layout="@layout/fragment_homeragment" >
+        <action
+            android:id="@+id/action_homeragment_to_recyclerFragment"
+            app:destination="@id/recyclerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recyclerFragment"
+        android:name="com.example.a4haftaodev.RecyclerFragment"
+        android:label="fragment_recycler"
+        tools:layout="@layout/fragment_recycler" >
+        <action
+            android:id="@+id/action_recyclerFragment_to_recyclerFullFragment"
+            app:destination="@id/recyclerFullFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recyclerFullFragment"
+        android:name="com.example.a4haftaodev.RecyclerFullFragment"
+        android:label="fragment_recycler_full"
+        tools:layout="@layout/fragment_recycler_full" />
+</navigation>

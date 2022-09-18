@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/drawable/back.svg_background.xml" value="0.2555" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/drawable/back.svg_foreground.xml" value="0.2555" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/drawable/dene.xml" value="0.1905" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/drawable/gradient.xml" value="0.1" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/drawable/letsgo.xml" value="0.2555" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/drawable/line.xml" value="0.255" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/font/nunito_bold.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/font/open_sans.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/layout/activity_main2.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/layout/fragment_first.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/layout/fragment_homeragment.xml" value="0.2" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/layout/fragment_recycler.xml" value="0.1" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/layout/fragment_recycler_full.xml" value="0.264" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/layout/home.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/layout/list_recyclerview.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/layout/listrecycler.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/mipmap-anydpi-v26/back.svg.xml" value="0.1125" />
+        <entry key="..\:/Users/beyza/AndroidStudioProjects/4HaftaOdev/app/src/main/res/mipmap-anydpi-v26/back.svg_round.xml" value="0.122" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
